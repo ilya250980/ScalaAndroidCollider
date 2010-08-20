@@ -1,0 +1,26 @@
+h2. ScalaAndroidCollider
+
+This is a little demo project showing how ScalaCollider can be used on Android.
+
+Requirements: sbt 0.7.4, Scala 2.8.0, Java 1.6, Android API Level 7 (= 2.1), SuperCollider 3.
+Dependancies: ScalaOSC, ScalaAudioFile and ScalaCollider. Clone them from my GitHub repositories, and build them using
+
+pre. $ sbt update publish-local
+
+Then cd into the ScalaAndroidCollider folder and build using
+
+pre. $ sbt update package-debug
+
+To install use either
+
+pre. $ sbt install-emulator
+
+or
+
+pre. $ sbt install-device
+
+Run the app. Make sure Wifi is enabled and SuperCollider server (scsynth) started on a computer on the Wifi with the given IP and port. Press the server toggle button. Text should say "Connecting..." then "Connected". When connect, press the bubbles toggle button to play the analog bubbles example.
+
+Big thanks to Mark Harrah and Jan Berkel for sbt and the android-plugin for sbt!
+
+ScalaCollider is (C)opyright by Hanns Holger Rutz and covered by the GNU GPL v2+.
