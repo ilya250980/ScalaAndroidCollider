@@ -19,7 +19,7 @@ or
 
 pre. $ sbt install-device
 
-Run the app. Make sure Wifi is enabled and SuperCollider server (scsynth) started on a computer on the Wifi with the given IP and port. Press the server toggle button. Text should say "Connecting..." then "Connected". When connect, press the bubbles toggle button to play the analog bubbles example.
+Run the app. Make sure Wifi is enabled and SuperCollider server (scsynth) started on a computer on the Wifi with the given IP and port. Press the server toggle button. Text should say "Connecting..." then "Connected". When connect, press the bubbles toggle button to play the analog bubbles example. "This videos":http://www.youtube.com/watch?v=hx4ROHHT7k0 demonstrates it.
 
 Big thanks to Mark Harrah and Jan Berkel for sbt and the android-plugin for sbt!
 
