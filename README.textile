@@ -9,7 +9,8 @@ pre. $ sbt update publish-local
 
 Then cd into the ScalaAndroidCollider folder and build using
 
-pre. $ sbt update package-debug
+pre. $ export ANDROID_SDK_HOME=path/to/android_sdk
+$ sbt update package-debug
 
 To install use either
 
